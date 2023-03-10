@@ -9,11 +9,16 @@
 
 
 .header {
-    background-image: url("https://ca-times.brightspotcdn.com/dims4/default/6800007/2147483647/strip/true/crop/6071x4047+34+0/resize/1200x800!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F66%2F46%2F830af8df4f8db53d77be0af6c388%2F1202233-fo-101-2022-drinks-the-guild-003.jpg") ;
+    background-image: url("https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80") ;
     background-position: center;
     background-repeat: none;
     background-size: cover;
-    height: 100vh;
+    height: 150vh;
+}
+
+.logo {
+    width: 30%;
+    margin-left: 35%;
 }
 
 .name-rest {
