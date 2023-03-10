@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "sans-serif";
+}
+
+
+.header {
+    background-image: url("https://ca-times.brightspotcdn.com/dims4/default/6800007/2147483647/strip/true/crop/6071x4047+34+0/resize/1200x800!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F66%2F46%2F830af8df4f8db53d77be0af6c388%2F1202233-fo-101-2022-drinks-the-guild-003.jpg") ;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 100vh;
+}
+
+.name-rest {
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 3rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+img {
+    width: 500px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.about {
+    padding: 30px;
+}
+.about-content {
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.about-us-text {
+    margin: 20px;
+}
+
+.about-header {
+    text-align: center;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-us-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+.footer {
+    background: beige;
+    height: 100px;
+}
