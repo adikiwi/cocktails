@@ -5,21 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/drinksPage.css">
-    <title>Document</title>
+    <title>Drinks Page</title>
 </head>
 <body>
     <main>
-        <div class="search-bar">
-            <h1>Drinks will be here</h1>
-            <input type="text" placeholder="Search drinks">
-            <button>Search</button>
+        <header>
+        <a href="./index.html"><img class="logo" src="./styles/logo/Vista Logos/logo-svg.svg" alt="logo"></a>
+        <h1>Drinks Page</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Search drinks">
+                <!-- <button>Search</button> -->
+            </div>
+        </header>
+        <nav class="filter-bar">
+            <button class="btn-filter btn-all">All Drinks</button>;
+            <button class="btn-filter btn-alco">Alcoholic</button>;
+            <button class="btn-filter btn-non-alco">Non-Alcoholic</button>;
+            <button class="btn-filter btn-ord-drink">Ordinary Drink</button>;
+            <button class="btn-filter btn-cocktail">Cocktail</button>;
+
+        </nav>
+        <div class="modal hidden">
+            <div class="flex">
+              <button class="btn-close">⨉</button>
+            </div>
+            <div class="modal-header">
+                <h3></h3>
+                <img class="modal-img" src="" alt="">
+            </div>
+            <div class="modal-description">
+                <p class="instruction">
+                </p>
+                <p class="ingredients"></p>
+            </div>
         </div>
+          
+          <div class="overlay hidden"></div>
         <!-- Show drinks -->
         <div class="container">
-            
+           
         </div>
+        
+        
+        <!--  Modal -->
+
+        <!-- <button id="#btn-modal" type="button" data-toggle="modal" data-target="#myModal">Launch modal</button>
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                ...
+              </div>
+            </div>
+          </div> -->
 
     </main> 
+
+   
 
 
 
